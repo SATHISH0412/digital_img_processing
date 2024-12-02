@@ -27,7 +27,7 @@ public class foreandback {
             ImageIO.write(combined, "png", new File("combine.png"));
             System.out.println("write success");
 
-        } catch (Exception e) {
+        } catch (IOException e) {
 
             System.out.println(e);
         }
